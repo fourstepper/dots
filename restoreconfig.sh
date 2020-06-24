@@ -56,7 +56,6 @@ rm -r ~/.config/mpv
 rm -r ~/.config/neofetch
 rm -r ~/.config/nvim
 rm -r ~/.config/ranger
-rm -r ~/.config/redshift
 rm -r ~/.config/spicetify
 
 printf 'Deleting .zshrc'
