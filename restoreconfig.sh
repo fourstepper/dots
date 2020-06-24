@@ -21,7 +21,7 @@ case "$response" in
               #if yes, then execute the passed parameters
                "$@"
               echo "Thank you for using my dotfiles!!!"
-              sleep 2
+              
                ;;
     *)
               #Otherwise exit...
@@ -67,21 +67,29 @@ printf 'Creating symlinks for .config files\n'
 printf '===================================\n\n'
 
 ln -s ~/.dotfiles/dots/.config/* ~/.config/
-sleep 2
+
+printf '\n'
+
+printf 'Creating a symlink for tmux files\n'
+printf '===================================\n\n'
+
+ln -s ~/.dotfiles/dots/tmux/.tmux ~/
+ln -s ~/.dotfiles/dots/tmux/.tmux.conf ~/
+
 printf '\n'
 
 printf 'Creating a symlink for .zshrc\n'
 printf '===================================\n\n'
 
 ln -s ~/.dotfiles/dots/.zshrc ~/
-sleep 2
+
 printf '\n'
 
 printf 'Export nvim as default editor right away\n'
 printf '===================================\n\n'
 
 export EDITOR="nvim"
-sleep 2
+
 printf '\n'
 
 printf 'ALL FINISHED!\n'

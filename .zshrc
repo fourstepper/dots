@@ -38,7 +38,7 @@ alias tree='exa --tree'
 alias search='rg --files --hidden --no-messages --no-ignore-vcs | fzf'
 alias mpvplaylist='mpv * "$@" &> /dev/null & disown'
 
-alias dots="cd ~/.dotfiles/dotfiles/"
+alias dots="cd ~/.dotfiles/dots/"
 
 # Navigating the FS
 alias exthdd="cd /run/media/robinopletal/cea2d37b-4ec8-4161-91e3-785ae362e0ab/personalStuff"
