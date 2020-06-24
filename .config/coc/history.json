@@ -1,0 +1,56 @@
+{
+  "lists": {
+    "%2Fhome%2Frobinopletal": [
+      "ext",
+      "marke",
+      "mark",
+      "mar",
+      "market"
+    ],
+    "%2Fhome%2Frobinopletal%2F": {
+      "dotfiles%2Fdotfiles%2F": {
+        "config%2Fcoc%2Fextensions%2Fnode_modules%2Fcoc-git": [
+          "commit"
+        ]
+      }
+    }
+  },
+  "marketplace": {
+    "%2Fhome%2Frobinopletal": [
+      "markdwo",
+      "emmet",
+      "vim",
+      "ansible",
+      "python",
+      "react",
+      "es",
+      "sh",
+      "docker",
+      "git"
+    ],
+    "%2Fhome%2Frobinopletal%2F": {
+      "dotfiles%2Fdotfiles%2F": {
+        "config%2Fwaybar": [
+          "json"
+        ]
+      },
+      "dotfiles%2Fdotfiles": [
+        "pairs"
+      ]
+    },
+    "%2Fhome%2Frobinopletal%2FDocuments%2FProgramming%2FPersonal%2Fwofi-wifi-menu": [
+      "git",
+      "gitig"
+    ]
+  },
+  "commits": {
+    "%2Fhome%2Frobinopletal%2F": {
+      "dotfiles%2Fdotfiles%2F": {
+        "config%2Fcoc%2Fextensions%2Fnode_modules%2Fcoc-git": [
+          "q",
+          "vim"
+        ]
+      }
+    }
+  }
+}

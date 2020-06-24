@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- Sonarworks Reference 4 -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Sonarworks Reference 4</Name>
+   <Binary>/usr/lib/vst/Sonarworks Reference 4 VST Plugin.so</Binary>
+   <UniqueID>1347638377</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x9</Options>
+
+   <Chunk>
+VkMyIQoEAAA8c3RhdGUgaGVhZHBob25lTW9kZUVuYWJsZWQ9IjAiPjxzZXR0aW5nc0hQIHByb2ZpbGU9IiIgYnlwYXNzRW5hYmxlZD0iMSIgYmFsYW5jZUVR
+RW5hYmxlZD0iMSIgbW9ub01peEVuYWJsZWQ9IjAiIGF2b2lkQ2xpcHBpbmdFbmFibGVkPSIxIiBlbmFibGVSZW5kZXJCeXBhc3NOb3RpZmljYXRpb249IjEi
+IGVxTGV2ZWw9IjEiIGZpbHRlclR5cGU9IjAiIG91dHB1dEdhaW49IjAiIHRhcmdldFR5cGU9IjAiIGN1c3RvbUJhc3NCb29zdD0iMCIgY3VzdG9tVGlsdD0i
+MCIgbGltaXRNYXhpbXVtPSIwIiBsaW1pdExvd0Jvb3N0PSIyIiBsaW1pdEhpZ2hCb29zdD0iMCIgcHJlZGVmaW5lZFByZXNldElEPSIiIHRhcmdldFZpc2li
+bGU9IjEiIGJlZm9yZVZpc2libGU9IjAiIGFmdGVyVmlzaWJsZT0iMSIgY29ycmVjdGlvblZpc2libGU9IjAiIHBoYXNlVmlzaWJsZT0iMCIgbGltaXRWaXNp
+YmxlPSIwIiBsZWZ0VmlzaWJsZT0iMSIgcmlnaHRWaXNpYmxlPSIxIi8+PHNldHRpbmdzTFMgcHJvZmlsZT0iL2hvbWUvcm9iaW5vcGxldGFsLy5zb25hcndv
+cmtzL1JlZmVyZW5jZSA0L1NvbmFyd29ya3MgUHJvamVjdHMvRm9jYWwgU2hhcGUgNjUgdjIuc3dwcm9qIiBieXBhc3NFbmFibGVkPSIwIiBiYWxhbmNlRVFF
+bmFibGVkPSIwIiBtb25vTWl4RW5hYmxlZD0iMCIgYXZvaWRDbGlwcGluZ0VuYWJsZWQ9IjEiIGVuYWJsZVJlbmRlckJ5cGFzc05vdGlmaWNhdGlvbj0iMSIg
+ZXFMZXZlbD0iMSIgZmlsdGVyVHlwZT0iMSIgb3V0cHV0R2Fpbj0iLTUuOCIgdGFyZ2V0VHlwZT0iMCIgY3VzdG9tQmFzc0Jvb3N0PSIwIiBjdXN0b21UaWx0
+PSIwIiBsaW1pdE1heGltdW09IjAiIGxpbWl0TG93Qm9vc3Q9IjIiIGxpbWl0SGlnaEJvb3N0PSIwIiBwcmVkZWZpbmVkUHJlc2V0SUQ9IiIgdGFyZ2V0Vmlz
+aWJsZT0iMSIgYmVmb3JlVmlzaWJsZT0iMCIgYWZ0ZXJWaXNpYmxlPSIxIiBjb3JyZWN0aW9uVmlzaWJsZT0iMCIgcGhhc2VWaXNpYmxlPSIwIiBsaW1pdFZp
+c2libGU9IjAiIGxlZnRWaXNpYmxlPSIxIiByaWdodFZpc2libGU9IjEiLz48L3N0YXRlPgA=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>Sonarworks Reference 4:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>Sonarworks Reference 4:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Sonarworks Reference 4:output_1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Sonarworks Reference 4:output_2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>
