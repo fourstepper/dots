@@ -27,10 +27,10 @@ export EDITOR="nvim"
 # Source zsh with zshreload
 alias zshreload="source ~/.zshrc"
 alias ytdlbestmp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
+alias ans='cd ~/Documents/Programming/Personal/ansible'
 # Configure vim = nvim + v = nvim 
 alias vim="nvim"
 alias v="nvim"
-alias r="ranger"
 # Kitty aliases
 alias code="~/Documents/Programming"
 alias h="history -20"
