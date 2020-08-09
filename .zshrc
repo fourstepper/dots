@@ -10,6 +10,9 @@ export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
 export MOZ_ENABLE_WAYLAND=1
 export MOZ_WEBRENDER=1
 
+# Export kubeconfig to rpis
+export KUBECONFIG=~/.kube/rpi-cluster-k3s/config
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -17,7 +20,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ENABLE_CORRECTION="true"
 
 # ZSH plugins
-plugins=(git rsync brew osx colored-man-pages)
+plugins=(git rsync brew osx colored-man-pages kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
